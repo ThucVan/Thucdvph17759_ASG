@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_tenloaithu"
+        android:background="#FFB85F"
+        android:textColor="#462066"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="22sp"
+        android:text="Tên Loại  Thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_noidung_tenloaithu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tenloaithu"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="noi dung"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/iv_delete"
+        android:id="@+id/iv_edit"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+    </ImageView>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/iv_delete"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+    </ImageView>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

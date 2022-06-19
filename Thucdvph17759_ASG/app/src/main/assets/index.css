@@ -1,0 +1,68 @@
+#container{
+    width: 1500px;
+    height: 2500px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: #7ac795;
+}
+
+@font-face {font-family: "Romany"; src: url("//db.onlinewebfonts.com/t/d101df33d2d490a46ec3f7d01f59cad8.eot"); src: url("//db.onlinewebfonts.com/t/d101df33d2d490a46ec3f7d01f59cad8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d101df33d2d490a46ec3f7d01f59cad8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d101df33d2d490a46ec3f7d01f59cad8.woff") format("woff"), url("//db.onlinewebfonts.com/t/d101df33d2d490a46ec3f7d01f59cad8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d101df33d2d490a46ec3f7d01f59cad8.svg#Romany") format("svg"); }
+
+h1{
+    font-family: "Romany";
+}
+
+h3{
+    color: black;
+}
+
+.noi-dung-header{
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 150px;
+}
+
+.img-header{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.btn_appstore, .btn_chplay{
+    border: 1px solid #7ac795;
+    background-color: #7ac795;
+}
+main{
+    background-color: #f2fff7;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.content>h4{
+    color: #7ac795;
+}
+
+.noi_dung_content{
+    margin-left: 110px;
+    text-align: left;
+    width: 300px;
+}
+
+.item_img :hover{
+    transform: rotate(360deg);
+        transition: 5s;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px;
+    color: white;
+    background-color: black;
+}

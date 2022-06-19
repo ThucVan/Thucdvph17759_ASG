@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Thucdvph17759_ASG</string>
+
+    <string name="my_name">Design By : Thucdvph17759</string>
+    <string name="name_app">Quản Lí Thu Chi</string>
+    <string name="dang_ki">Đăng Kí</string>
+    <string name="login_FB">Login With Facebook</string>
+    <string name="login_GG">Login with google</string>
+    <string name="login_apple">Login with apple</string>
+    <string name="waring_login">Chúng tôi sẽ không đăng thông tin mà không có sự cho phép của bạn</string>
+    <string name="or">Hoặc</string>
+    <string name="email">Email</string>
+    <string name="password">Mật Khẩu</string>
+    <string name="dang_nhap">Đăng Nhập</string>
+    <string name="title_activity_main_app">MainAppActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_khaonthu">Khoản Thu</string>
+    <string name="menu_khoanchi">Khoản Chi</string>
+    <string name="menu_thongke">Thống kê</string>
+    <string name="menu_gioithie">Giới Thiệu</string>
+    <string name="menu_thoat">Thoát</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="out">Thoát</string>
+    <string name="my_email">Thucdvph17759@fpt.edu.vn</string>
+    <string name="loaithu">Loại Thu</string>
+    <string name="loaichi">Loại chi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
